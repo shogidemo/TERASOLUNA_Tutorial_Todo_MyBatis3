@@ -9,7 +9,7 @@
     <resultMap id="todoResultMap" type="Todo">
         <id property="todoId" column="todo_id" />
         <result property="todoTitle" column="todo_title" />
-        <result property="finished" column="finished" />
+        <result property="finished"  column="finished" />
         <result property="createdAt" column="created_at" />
     </resultMap>
 
